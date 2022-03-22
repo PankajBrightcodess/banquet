@@ -1,0 +1,19 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#home-sell-box{
+	background-color:#eaeaea;
+	padding:50px;
+}
+#home-sell-box h2{
+	margin:0 0 15px 0;
+	padding:15px;
+	background-color:#C3C2C0;
+}
+#home-sell-box form input,#home-sell-box form select,#home-sell-box form textarea{
+	margin-bottom:15px;
+}
+#home-sell-box {
+    padding: 30px;
+}

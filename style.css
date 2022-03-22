@@ -1,0 +1,332 @@
+.bg-light {
+    background-color: #066bcf00!important;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#home-sell-box{
+	background-color:#dc354503
+	padding:0px;
+}
+#home-sell-box h2{
+	margin:0 0 15px 0;
+	padding:15px;
+	background-color:#C3C2C0;
+}
+#home-sell-box form input,#home-sell-box form select,#home-sell-box form textarea{
+	margin-bottom:15px;
+}
+#home-sell-box {
+    padding: 30px;
+}
+/*.d{position: absolute;}*/
+.formm {
+    padding: 0px;
+    background: #cb0013d6;
+    position: absolute;
+    z-index: 9999;
+    margin-top: -112px;
+    width: 100%;
+}
+.formp{
+	
+	position: absolute;
+	z-index: 9999;
+	margin-top: -400px;
+	width: 100%;
+	text-align: center;
+	
+}
+.ad{
+
+	position: absolute;
+	z-index: 9999;
+	margin-bottom: -320px;
+	width: 100%;
+	text-align: center;
+}
+.btn{
+ height: 40px;
+ width: 180px;
+ margin-left: 80px;
+
+
+}
+.boo{
+	margin: 0px 10px;
+    text-align: center;
+}
+.bttt{
+	padding: 5px 5px;
+	width: 40%;
+	background-color:  #000000cf;
+	color: white;
+	margin: 15px 15px;
+	margin-left: 160px;
+	border: 1px solid white;
+}
+.bbtn{
+	margin: 40px;
+	 width:100px;
+	  border: 1px red solid;
+	   border-radius:px;
+	    background-color: #000000b0;
+	 color:white;	
+}
+
+/*******************************/
+/********** Menu CSS ***********/
+/*******************************/
+.food {
+    position: relative;
+    width: 100%;
+    padding: 90px 0 60px 0;
+    margin: 45px 0;
+    background: rgba(0, 0, 0, .04);
+}
+
+.food .food-item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 50px 30px 30px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow:0 0 30px rgb(125 151 244);
+    transition: .3s;
+}
+
+.food .food-item:hover {
+    box-shadow: none;
+}
+
+.food .food-item i {
+   /* position: relative;*/
+    display: inline-block;
+    color: #fbaf32;
+    font-size: 60px;
+   /* line-height: 60px;*/
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.food .food-item:hover i {
+    color: #719a0a;
+}
+
+.food .food-item i::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    top: -20px;
+    left: -15px;
+    /*border: 3px dotted #fbaf32;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-radius: 100px;*/
+    transition: .3s;
+}
+
+.food .food-item:hover i::after {
+    border: 1px dotted #719a0a;
+    border-right: transparent;
+    border-bottom: transparent;
+}
+
+.food .food-item h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.food .food-item a {
+    position: relative;
+    font-size: 16px;
+}
+
+.food .food-item a::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 1px;
+    bottom: 0;
+    left: calc(50% - 25px);
+    background: #fbaf32;
+    transition: .3s;
+}
+
+.food .food-item a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #719a0a;
+}
+.todo-list .success {
+  border-left-color: #28a745;
+}
+    /*******************************/
+/********* Contact CSS *********/
+/*******************************/
+.contact {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.contact .contact-information {
+    min-height: 150px;
+    margin: 0 0 30px 0;
+    padding: 30px 15px 0 15px;
+    background:#d7dae7;
+}
+
+.contact .contact-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact .contact-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#233799;
+    border-radius: 50px;
+}
+
+.contact .contact-icon i {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.contact .contact-text {
+    position: relative;
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+}
+
+.contact .contact-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color:#233799;
+}
+
+.contact .contact-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #454545;
+}
+
+.contact .contact-social a {
+       margin-right: 10px;
+    font-size: 24px;
+    color: #233799;
+}
+
+.contact .contact-social a:hover {
+    color: #bd0000;
+}
+
+.contact .contact-form iframe {
+    width: 100%;
+    height: 380px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.contact .contact-form input {
+    padding: 22px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.contact .contact-form textarea {
+    height: 95px;
+    padding: 8px 15px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.contact .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.todo-list .success {
+  border-left-color: #28a745;
+}
+
+@media (max-width: 2560px){
+.serwe .serweimg{ width: 100%; }
+.afr{padding-left: 120px;}
+}
+@media (max-width: 1440px){
+.serwe .serweimg{ width: 100%; }
+.afr{padding-left: 120px;}
+}
+@media (max-width: 1024px){
+.serwe .serweimg{ width: 100%; }
+.afr{padding-left: 120px;}
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+	.formm {
+    /* padding: 8px; */
+    background: #e9172bad;
+     position: relative; 
+    /* z-index: 9999; */
+    margin-top: -47px;
+    width: 100%;
+	}
+	.btn {
+    height: 43px;
+    width: 98%;
+    margin-left: 0px;
+	}
+	.boo{text-align: left;}
+	.serwe .serweimg{ width: 100%; }
+	.afr {
+    padding-left: 61px;
+}
+}
+@media (max-width: 425px){
+	hr{ display: none; }
+	.btn {
+    height: 43px;
+    width: 96%;
+    margin-left: 0px;
+	}
+
+}
+@media (max-width: 320px){
+	.formm {
+    /* padding: 49px; */
+    background: #e9172bad;
+    /* position: absolute; */
+    /* z-index: 9999; */
+    margin-top: -48px;
+    width: 100%;
+	}
+	.home-sell-box {
+    padding: 0px;
+	}
+	.btn {
+    height: 43px;
+    width: 94%;
+    margin-left: 0px;
+	}
+
+
+
+
