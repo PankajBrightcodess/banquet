@@ -83,10 +83,11 @@ if(isset($_POST['adminlogin'])){
 	// $query="SELECT * FROM `admin` WHERE `email`='$email' and `password`='$pass'";
 	$run=mysqli_query($conn,$query);
 	$num=mysqli_num_rows($run);
+	// echo '<pre>';
+	// print_r($num);die;
 	if($num){
 		$data=mysqli_fetch_assoc($run);
-		// echo '<pre>';
-		// print_r($data);die;
+		
 		$_SESSION['id'] = $data['id'];
 		$_SESSION['name'] = $data['name'];
 		$_SESSION['email'] = $data['email'];
